@@ -1,0 +1,669 @@
+/* &display=swap */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900,700italic,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900,&display=swap");
+/*
+@import url("https://fonts.googleapis.com/css?family=Lobster:400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zen+Kurenaido:400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Spectral:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alice:400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Neucha:400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Jura:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cousine:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Literata:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pattaya:400&display=swap");
+*/
+@font-face {
+	font-family: "Lobster";
+	src: url("../fonts/Lobster-Regular.woff2") format("woff2"), url("../fonts/Lobster-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Pacifico";
+	src: url("../fonts/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "ZenKurenaido";
+	src: url("../fonts/ZenKurenaido-Regular.woff2") format("woff2"), url("../fonts/ZenKurenaido-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Bold.woff2") format("woff2"), url("../fonts/Rubik-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Black.woff2") format("woff2"), url("../fonts/Rubik-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "IBMPlexSans";
+	src: url("../fonts/IBMPlexSans-Regular.woff2") format("woff2"), url("../fonts/IBMPlexSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SourceSerifPro";
+	src: url("../fonts/SourceSerifPro-Regular.woff2") format("woff2"), url("../fonts/SourceSerifPro-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SourceSerifPro";
+	src: url("../fonts/SourceSerifPro-Bold.woff2") format("woff2"), url("../fonts/SourceSerifPro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SourceSerifPro";
+	src: url("../fonts/SourceSerifPro-Black.woff2") format("woff2"), url("../fonts/SourceSerifPro-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Spectral";
+	src: url("../fonts/Spectral-Regular.woff2") format("woff2"), url("../fonts/Spectral-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Spectral";
+	src: url("../fonts/Spectral-Bold.woff2") format("woff2"), url("../fonts/Spectral-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cormorant";
+	src: url("../fonts/Cormorant-Regular.woff2") format("woff2"), url("../fonts/Cormorant-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cormorant";
+	src: url("../fonts/Cormorant-Bold.woff2") format("woff2"), url("../fonts/Cormorant-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Alice";
+	src: url("../fonts/Alice-Regular.woff2") format("woff2"), url("../fonts/Alice-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Neucha";
+	src: url("../fonts/Neucha.woff2") format("woff2"), url("../fonts/Neucha.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jura";
+	src: url("../fonts/Jura-Regular.woff2") format("woff2"), url("../fonts/Jura-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Jura";
+	src: url("../fonts/Jura-Bold.woff2") format("woff2"), url("../fonts/Jura-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cousine";
+	src: url("../fonts/Cousine-Regular.woff2") format("woff2"), url("../fonts/Cousine-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Cousine";
+	src: url("../fonts/Cousine-Bold.woff2") format("woff2"), url("../fonts/Cousine-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Literata";
+	src: url("../fonts/Literata-Regular.woff2") format("woff2"), url("../fonts/Literata-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Literata";
+	src: url("../fonts/Literata-Bold.woff2") format("woff2"), url("../fonts/Literata-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Literata";
+	src: url("../fonts/Literata-Black.woff2") format("woff2"), url("../fonts/Literata-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Pattaya";
+	src: url("../fonts/Pattaya-Regular.woff2") format("woff2"), url("../fonts/Pattaya-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 10px;
+}
+.menu{
+	font-size: 30px;
+	font-weight: 900;
+	font-style: italic;
+   text-align: right;
+	color: blue;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+}
+.footer{
+	font-size: 30px;
+	font-weight: 700;
+	font-style: italic;
+   text-align: center;
+	color: blue;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+}
+.montserrat-font{
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+   text-align: center;
+	color: red;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+}
+.ubuntu-font{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 100px;
+	font-weight: 700;
+	text-align: center;
+	color: wheat;
+	
+}
+.ubuntu-font-text-1{
+	font-size: 18px;
+	text-align: left;
+	font-weight: 400;
+	color: rebeccapurple;
+	text-decoration: line-through;
+	
+}
+.ubuntu-font-text-2{
+	font-size: 19px;
+	text-align: justify;
+	color: blue;
+	text-decoration: underline;
+}
+.ubuntu-font-text-3{
+	font-size: 20px;
+	text-align: right;
+	color: blueviolet;
+	font-weight: 400;
+}
+.ubuntu-font-text-3{
+	font-size: 25px;
+	color: brown;
+	text-shadow: 2px 2px 2px #000;
+}
+.ubuntu-font-text-4{
+	font-size: 30px;
+	color: gold;
+	font-weight: 700;
+	text-shadow: 2px 2px 2px grey;
+	text-transform: uppercase;
+}
+.ubuntu-font-text-5{
+	font-size: 35px;
+	color: orange;
+	text-align: justify;
+	text-transform: capitalize;
+	text-shadow: 10px 10px 10px #000;
+}
+.bitter-font{
+	font-family: "Bitter", sans-serif;
+	font-size: 110px;
+	font-weight: 900;
+	text-align: right;
+	color: whitesmoke;
+}
+.bitter-font-text-1{
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	text-decoration: line-through;
+}
+.bitter-font-text-2{
+	font-size: 25px;
+	font-weight: 700;
+	color: rgba(255, 0, 0, 0.281);
+	text-align: justify;	
+	line-height: 1.5;
+	text-indent: 10%;
+}
+.bitter-font-text-3{
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.336);
+	text-decoration: underline;
+	letter-spacing: 10px;
+	font-weight: 400;
+}
+.bitter-font-text-4{
+	color: aqua;
+	font-size: 30px;
+	text-shadow: 10px 10px 10px antiquewhite;
+	font-weight: 700;
+}
+.bitter-font-text-5{
+	font-size: 40px;
+	font-weight: 400;
+	text-align: left;
+	text-shadow: -10px -10px 10px #000;
+}
+.lobster-font{
+	font-family: "Lobster", sans-serif;
+	font-size: 100px;
+	font-weight: 400;
+	text-align: justify;
+	color: rgba(220, 231, 120, 0.459);
+}
+.lobster-font-text-1{
+	font-size: 20px;
+	color: fuchsia;
+	text-align: left;
+	text-decoration: line-through;
+	text-transform: lowercase;
+}
+.lobster-font-text-2{
+	font-size: 25px;
+	color: khaki;
+	text-align: right;
+	text-shadow: 10px 5px 30px rgb(78, 39, 185);
+	font-style: oblique;
+}
+.lobster-font-text-3{
+	font-size: 30px;
+	color: lawngreen;
+	font-style: italic;
+}
+.lobster-font-text-4{
+	font-size: 33px;
+	color:rgba(0, 0, 0, 0.363);
+	text-decoration: overline;
+	text-transform: capitalize;
+}
+.lobster-font-text-5{
+	font-size: 35px;
+	color: rgba(178, 34, 34, 0.637);
+	text-align: left;
+	text-indent: 10%;
+	font-style: italic;
+}
+.pacifico-font{
+	font-family: "Pacifico", sans-serif;
+	font-size: 100px;
+	font-weight: 400;
+	text-align: right;
+	color: rgba(120, 205, 231, 0.459);
+	text-shadow: 5px 5px 5px rgb(78, 39, 185);
+}
+.pacifico-font-text-1{
+	font-size: 20px;
+	color: rgba(120, 205, 231, 0.459);
+}
+.pacifico-font-text-2{
+	font-size: 25px;
+	color: rgba(120, 205, 231, 0.61);
+}
+.pacifico-font-text-3{
+	font-size: 30px;
+	color: rgba(120, 205, 231, 0.719);
+}
+.pacifico-font-text-4{
+	font-size: 30px;
+	color: rgba(120, 205, 231, 0.842);
+}
+.pacifico-font-text-5{
+	font-size: 30px;
+	color: rgb(120, 205, 231);
+}
+.zen-kurenaido-font{
+	font-family: "Pacifico", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: justify;
+	color: rgba(39, 189, 139, 0.74);
+	text-indent: 3%;
+}
+.zen-kurenaido-font-text-1{
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	color: rgba(39, 189, 139, 0.63);
+}
+.zen-kurenaido-font-text-2{
+	letter-spacing: 10px;
+	text-transform: lowercase;
+	color: rgba(39, 189, 176, 0.63);
+}
+.zen-kurenaido-font-text-3{
+	letter-spacing: 15px;
+	text-transform: uppercase;
+	color: rgba(39, 146, 189, 0.63);
+}
+.zen-kurenaido-font-text-4{
+	letter-spacing: 20px;
+	text-decoration: line-through;
+	color: rgba(39, 104, 189, 0.63);
+}
+.zen-kurenaido-font-text-5{
+	letter-spacing: 25px;
+	text-decoration: underline;
+	color: rgba(49, 39, 189, 0.63);
+}
+.zen-kurenaido-font-text-6{
+	letter-spacing: 30px;
+	text-decoration: overline;
+	color: rgba(91, 39, 189, 0.63);
+}
+.rubik-mono-one-font{
+	font-family: "Rubik", sans-serif;
+	font-size: 10px;
+	font-weight: 900;
+	text-align: left;
+	color: black;
+	text-indent: 2%;
+	text-shadow: 5px 5px 5px rgb(241, 13, 13);
+	text-transform: uppercase;
+}
+.rubik-mono-one-font-text-1{
+	font-size: 25px;
+}
+.rubik-mono-one-font-text-2{
+	font-size: 30px;
+	font-weight: 400;
+}
+.rubik-mono-one-font-text-3{
+	font-size: 25px;
+	font-weight: 700;
+}
+.rubik-mono-one-font-text-4{
+	font-size: 30px;
+	font-weight: 400;
+}
+.rubik-mono-one-font-text-5{
+	font-size: 25px;
+	text-transform: capitalize;
+}
+.anonymous-pro-font{
+	font-family: "Anonymous Pro", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	color: black;
+	text-indent: 3%;
+}
+.anonymous-prot-font-text-1{
+	color: orchid;
+}
+.anonymous-prot-font-text-2{
+	font-weight: 400;
+	color: rgba(218, 112, 214, 0.425);
+}
+.anonymous-prot-font-text-2{
+	color: rgba(112, 137, 218, 0.425);
+}
+.anonymous-prot-font-text-3{
+	color: rgba(218, 112, 186, 0.425);
+}
+.anonymous-prot-font-text-4{
+	color: rgba(218, 202, 112, 0.425);
+}
+.anonymous-prot-font-text-5{
+	color: rgba(112, 218, 135, 0.425);
+}
+.roboto-font{
+	font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: left;
+	color: black;
+	text-indent: 3%;
+}
+.roboto-text-1{
+	font-size: 20px;
+	text-shadow: 4px 4px 4px rgb(235, 231, 16);
+}
+.roboto-text-2{
+	color: red;
+	font-size: 20px;
+	font-weight: 400;
+	text-shadow: 4px 4px 4px rgb(15, 43, 128);
+}
+.roboto-text-3{
+	font-size: 20px;
+	font-weight: 400;
+	text-decoration: overline;
+}
+.roboto-text-4{
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.roboto-text-5{
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: line-through;
+}
+.ibm-plex-sans-font{
+	font-family: "IBMPlexSans", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+   text-align: right;
+	color: rgb(79, 238, 16);
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000;
+}
+.ibm-plex-sans-text-1{
+	text-shadow: -2px -2px 2px #000;
+}
+.ibm-plex-sans-text-2{
+	text-shadow: -5px 2px 10px #000;
+}
+.ibm-plex-sans-text-3{
+	text-shadow: 2px -5px 5px #000;
+}
+.ibm-plex-sans-text-4{
+	color: red;
+	text-shadow: 20px 5px 5px #000;
+}
+.ibm-plex-sans-text-5{
+	color: rgba(0, 26, 255, 0.473);
+	text-shadow: 20px 20px 5px #000;
+}
+.source-serif-pro-font{
+	font-family: "Source Serif Pro", sans-serif;
+	font-size: 30px;
+	text-align: left;
+	color: gray;
+	text-transform: lowercase;
+	text-indent: 3%;
+}
+.source-serif-pro-text-1{
+	font-weight: 400;
+	line-height: 1.5;
+}
+.source-serif-pro-text-2{
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+.source-serif-pro-text-3{
+	font-weight: 700;
+	word-spacing: 20px;
+}
+.source-serif-pro-text-4{
+	font-weight: 900;
+}
+.source-serif-pro-text-5{
+	font-weight: 900;
+}
+.spectral-font{
+	font-family: "Spectral", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: green;
+	text-transform: uppercase;
+}
+.spectral-text-1{
+	font-weight: 700;
+	text-decoration: underline;
+}
+.spectral-text-2{
+	font-weight: 400;
+	text-align: left;
+}
+.spectral-text-3{
+	font-weight: 700;
+	text-align: left;
+	text-decoration: underline;
+}
+.spectral-text-4{
+	font-weight: 700;
+	text-decoration: underline;
+}
+.spectral-text-5{
+	font-weight: 400;
+	text-align: left;
+}
+.cormorant-font{
+	font-family: "Cormorant", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: left;
+	color: purple;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+.cormorant-font-text-1{
+	text-shadow: 2px 2px 2px gray;
+}
+.cormorant-font-text-2{
+	font-weight: 400;
+	text-shadow: 1px 1px 1px gray;
+}
+.cormorant-font-text-3{
+	font-weight: 400;
+	text-shadow: -1px -1px 1px gray;
+}
+.cormorant-font-text-4{
+		text-shadow: -2px -2px 2px gray;
+}
+.cormorant-font-text-5{
+		text-shadow: -3px -3px 3px gray;
+}
+.alice-font{
+	font-family: "Alice", sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+	text-align: right;
+	color: rgba(128, 0, 53, 0.295);
+	text-transform: capitalize;
+	text-shadow: -3px -3px 3px gray;
+}
+.neucha-font{
+	font-family: "Neucha", sans-serif;
+	font-size: 45px;
+	font-weight: 400;
+	text-align: center;
+	color: rgba(45, 0, 128, 0.295);
+	text-transform: lowercase;
+	line-height: 1.5;
+	text-shadow: 10px 3px 3px gray;
+}
+.jura-font{
+	font-family: "Jura", sans-serif;
+	font-size: 34px;
+	font-weight: 400;
+	text-align: left;
+	color: rgba(124, 0, 128, 0.295);
+	text-transform: uppercase;
+	text-shadow: -3px -3px 3px gray;
+}
+.cousine-font{
+	font-family: "Cousine", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: left;
+	color: rgba(128, 0, 43, 0.295);
+	text-transform: uppercase;
+	line-height: 1.5;
+	text-shadow: -3px -3px 3px gray;
+}
+.literata-font{
+	font-family: "Literata", sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	text-align: left;
+	color: greenyellow;
+}
+.pattaya-font{
+	font-family: "Pattaya", sans-serif;
+	font-size: 8px;
+	font-weight: 400;
+	text-align: left;
+	color: rgb(236, 187, 26);
+	line-height: 1.5;
+	
+}
